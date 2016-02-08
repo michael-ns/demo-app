@@ -1,0 +1,3 @@
+#!/bin/bash
+for i in `ls -A`; do if [ -d $i ]; then rm -r $i; fi; done
+
